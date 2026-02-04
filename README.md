@@ -29,11 +29,12 @@ CNN–LSTM architecture with Greedy and Beam Search decoding.
 ### 1. Install dependencies
 pip install -r requirements.txt
 
-2.Train model
+###2. Train model
 python src/train.py
 
-3. Generate captions
+###3. Generate captions
 python src/inference.py
 
-4. Evaluate
+
+###4. Evaluate
 python src/evaluation.py
